@@ -1,0 +1,110 @@
+<coverage>
+  <id>CoverageInfoImpl--35d414bb:159b22dcf02:-7d2d</id>
+  <name>M88-georectified</name>
+  <nativeName>M88-georectified</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--35d414bb:159b22dcf02:-7fab</id>
+  </namespace>
+  <title>M88-georectified is a A raster file accompanied by a spatial data file</title>
+  <description>/sds/projects/thdl-geoserver/releases/20091014104600/data/coverages/georectified/M88-georectified.jpg</description>
+  <keywords>
+    <string>WCS</string>
+    <string>M88</string>
+    <string>M88-georectified</string>
+  </keywords>
+  <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
+  DATUM[&quot;World Geodetic System 1984&quot;, 
+    SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>88.5519523702</minx>
+    <maxx>92.5279093702</maxx>
+    <miny>24.7151931876</miny>
+    <maxy>28.5772531876</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>88.5519523702</minx>
+    <maxx>92.5279093702</maxx>
+    <miny>24.7151931876</miny>
+    <maxy>28.5772531876</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="dirName">M88_M88-georectified</entry>
+  </metadata>
+  <store class="coverageStore">
+    <id>CoverageStoreInfoImpl--35d414bb:159b22dcf02:-7f0b</id>
+  </store>
+  <nativeFormat>WorldImage</nativeFormat>
+  <grid dimension="2">
+    <range>
+      <low>0 0</low>
+      <high>12951 12580</high>
+    </range>
+    <transform>
+      <scaleX>3.07E-4</scaleX>
+      <scaleY>-3.07E-4</scaleY>
+      <shearX>0.0</shearX>
+      <shearY>0.0</shearY>
+      <translateX>88.5521058702</translateX>
+      <translateY>28.5770996876</translateY>
+    </transform>
+    <crs>EPSG:4326</crs>
+  </grid>
+  <supportedFormats>
+    <string>ARCGRID</string>
+    <string>GTOPO30</string>
+    <string>GEOTIFF</string>
+    <string>IMAGEMOSAIC</string>
+    <string>GIF</string>
+    <string>PNG</string>
+    <string>JPEG</string>
+    <string>TIFF</string>
+  </supportedFormats>
+  <interpolationMethods>
+    <string>nearest neighbor</string>
+    <string>bilinear</string>
+    <string>bicubic</string>
+  </interpolationMethods>
+  <defaultInterpolationMethod>nearest neighbor</defaultInterpolationMethod>
+  <dimensions>
+    <coverageDimension>
+      <name>RED_BAND</name>
+      <description>GridSampleDimension[-Infinity,Infinity]</description>
+      <range>
+        <min>-inf</min>
+        <max>inf</max>
+      </range>
+    </coverageDimension>
+    <coverageDimension>
+      <name>GREEN_BAND</name>
+      <description>GridSampleDimension[-Infinity,Infinity]</description>
+      <range>
+        <min>-inf</min>
+        <max>inf</max>
+      </range>
+    </coverageDimension>
+    <coverageDimension>
+      <name>BLUE_BAND</name>
+      <description>GridSampleDimension[-Infinity,Infinity]</description>
+      <range>
+        <min>-inf</min>
+        <max>inf</max>
+      </range>
+    </coverageDimension>
+  </dimensions>
+  <requestSRS>
+    <string>EPSG:4326</string>
+  </requestSRS>
+  <responseSRS>
+    <string>EPSG:4326</string>
+  </responseSRS>
+</coverage>

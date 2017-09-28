@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<completion version="1.5.0" prefix="yahoo-min.js" extends="" parent="" >
+	<file path="/Users/ajs6f/thdl/index.html" creation="1">
+		<item repl="ovrviewdiv" display="ovrviewdiv [div]" chrno="1414" />
+		<item repl="navdiv" display="navdiv [div]" chrno="1462" />
+		<item repl="mapwrapper" display="mapwrapper [div]" chrno="1529" />
+		<item repl="map" display="map [div]" chrno="1550" />
+	</file>
+</completion>

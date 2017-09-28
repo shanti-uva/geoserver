@@ -1,0 +1,16 @@
+<layer>
+  <name>Population_density</name>
+  <id>LayerInfoImpl--35d414bb:159b22dcf02:-7ea6</id>
+  <path>/</path>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--35d414bb:159b22dcf02:-7f92</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--35d414bb:159b22dcf02:-7ea7</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

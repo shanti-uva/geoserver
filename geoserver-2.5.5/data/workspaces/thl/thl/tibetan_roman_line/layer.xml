@@ -1,0 +1,16 @@
+<layer>
+  <name>tibetan_roman_line</name>
+  <id>LayerInfoImpl--35d414bb:159b22dcf02:-7e7c</id>
+  <path>/</path>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--35d414bb:159b22dcf02:-7f8e</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--35d414bb:159b22dcf02:-7e7d</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

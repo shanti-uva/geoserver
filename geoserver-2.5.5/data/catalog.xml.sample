@@ -1,0 +1,93 @@
+<?config.xml version="1.0" encoding="UTF-8"?>
+<catalog >
+  <datastores >
+    <!--
+      a datastore configuration element serves as a common data source connection
+      parameters repository for all featuretypes it holds.
+    -->
+    <datastore id = "country_boundaries" enabled = "true" namespace = "gn" >
+      <connectionParams >
+        <parameter name = "charset" value = "ISO-8859-1" />
+        <parameter name = "url" value = "file:data/boundaries/gboundaries.shp" />
+        <parameter name = "namespace" value = "gn" />
+      </connectionParams>
+    </datastore>
+    <datastore id = "boundaries" enabled = "true" namespace = "gn" >
+      <connectionParams >
+        <parameter name = "charset" value = "ISO-8859-1" />
+        <parameter name = "url" value = "file:data/boundaries/gboundaries.shp" />
+        <parameter name = "namespace" value = "gn" />
+      </connectionParams>
+    </datastore>
+    <datastore id = "thdl_test" enabled = "true" namespace = "thdl" >
+      <connectionParams >
+        <parameter name = "port" value = "5432" />
+        <parameter name = "passwd" value = "geoserver" />
+        <parameter name = "dbtype" value = "postgis" />
+        <parameter name = "host" value = "localhost" />
+        <parameter name = "validate connections" value = "false" />
+        <parameter name = "max connections" value = "10" />
+        <parameter name = "database" value = "thdl_places_production" />
+        <parameter name = "wkb enabled" value = "true" />
+        <parameter name = "namespace" value = "thdl" />
+        <parameter name = "schema" value = "public" />
+        <parameter name = "estimated extent" value = "false" />
+        <parameter name = "loose bbox" value = "true" />
+        <parameter name = "user" value = "geoserver" />
+        <parameter name = "min connections" value = "4" />
+      </connectionParams>
+    </datastore>
+    <datastore id = "thdl" enabled = "true" namespace = "thdl" >
+      <connectionParams >
+        <parameter name = "port" value = "5432" />
+        <parameter name = "passwd" value = "geoserver" />
+        <parameter name = "dbtype" value = "postgis" />
+        <parameter name = "host" value = "localhost" />
+        <parameter name = "validate connections" value = "false" />
+        <parameter name = "max connections" value = "10" />
+        <parameter name = "database" value = "thdl" />
+        <parameter name = "wkb enabled" value = "true" />
+        <parameter name = "namespace" value = "thdl" />
+        <parameter name = "schema" value = "public" />
+        <parameter name = "estimated extent" value = "false" />
+        <parameter name = "loose bbox" value = "true" />
+        <parameter name = "user" value = "geoserver" />
+        <parameter name = "min connections" value = "4" />
+      </connectionParams>
+    </datastore>
+  </datastores>
+  <formats >
+    <!--
+      a format configuration element serves as a common data source
+      parameters repository for all coverages it holds.
+    -->
+    <format id = "BlueMarble" enabled = "true" namespace = "gn" >
+      <type>GeoTIFF</type>
+      <url>file:coverages/BlueMarble/bluemarble_jpeg_small.tiff</url>
+    </format>
+  </formats>
+  <!--
+    Defines namespaces to be used by the datastores.
+  -->
+  <namespaces >
+    <namespace prefix = "gn" uri = "http://geonetwork-opensource.org" />
+    <namespace prefix = "Scratch" uri = "http://www.example.com" />
+    <namespace prefix = "thdl" uri = "http://www.thdl.org" />
+  </namespaces>
+  <styles >
+    <!--
+      Defines the style ids and file name to be used by the wms.
+    -->
+    <style id = "polygon" filename = "default_polygon.sld" />
+    <style id = "raster" filename = "raster.sld" />
+    <style id = "point" filename = "default_point.sld" />
+    <style id = "Nepali" filename = "Nepali.sld" />
+    <style id = "thdl-feature" filename = "thdl-feature.sld" />
+    <style id = "Tibetan" filename = "Tibetan.sld" />
+    <style id = "line" filename = "default_line.sld" />
+    <style id = "thdl_named" filename = "thdl_named.sld" />
+    <style id = "Chinese" filename = "Chinese.sld" />
+    <style id = "English" filename = "English.sld" />
+    <style id = "thdl" filename = "thdl.sld" />
+  </styles>
+</catalog>

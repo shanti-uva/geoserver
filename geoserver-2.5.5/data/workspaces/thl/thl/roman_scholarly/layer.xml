@@ -1,0 +1,16 @@
+<layer>
+  <name>roman_scholarly</name>
+  <id>LayerInfoImpl--35d414bb:159b22dcf02:-7e96</id>
+  <path>/</path>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--35d414bb:159b22dcf02:-7f89</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--35d414bb:159b22dcf02:-7e97</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

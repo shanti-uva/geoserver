@@ -1,0 +1,11 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl--35d414bb:159b22dcf02:-7f32</id>
+  <name>BlueMarble</name>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--35d414bb:159b22dcf02:-7fac</id>
+  </workspace>
+  <__default>false</__default>
+  <url>file:coverages/BlueMarble/bluemarble_jpeg_small.tiff</url>
+</coverageStore>

@@ -1,0 +1,30 @@
+var map;
+function init(){
+
+    map = new OpenLayers.Map('map', { controls: [] });
+    
+    map.addControl(new OpenLayers.Control.PanZoomBar());
+    //map.addControl(new OpenLayers.Control.LayerSwitcher({'ascending':false}));
+    map.addControl(new OpenLayers.Control.ScaleLine());
+    map.addControl(new OpenLayers.Control.OverviewMap(
+        {   'div' : OpenLayers.Util.getElement('ovrviewdiv') })); 
+    map.addControl(new OpenLayers.Control.KeyboardDefaults());
+    map.addControl(new OpenLayers.Control.NavToolbar(
+        {   'div' : OpenLayers.Util.getElement('navdiv') } ) );
+    
+    var jpl = new OpenLayers.Layer.WMS( "Global Mosaic from Telascience",
+    "http://t1.hypercube.telascience.org/cgi-bin/landsat7", 
+    {layers: "landsat7"});
+    
+    /* var ww = new OpenLayers.Layer.WorldWind( "Urban",
+                "http://worldwind25.arc.nasa.gov/tile/tile.aspx?", .8, 9,
+                 { tileSize: new OpenLayers.Size(512,512) });
+
+    */
+    
+    
+    map.addLayer(jpl);
+    map.zoomTo(2);
+    //var resize = new YAHOO.util.Resize('map');
+    
+}

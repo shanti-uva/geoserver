@@ -1,0 +1,11 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl--35d414bb:159b22dcf02:-7f0c</id>
+  <name>M89</name>
+  <type>WorldImage</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--35d414bb:159b22dcf02:-7faa</id>
+  </workspace>
+  <__default>false</__default>
+  <url>file:coverages/georectified/M89-georectified.jpg</url>
+</coverageStore>

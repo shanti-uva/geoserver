@@ -1,0 +1,16 @@
+<layer>
+  <name>Tibetan_rate</name>
+  <id>LayerInfoImpl--35d414bb:159b22dcf02:-7e80</id>
+  <path>/</path>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--35d414bb:159b22dcf02:-7fa2</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--35d414bb:159b22dcf02:-7e81</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

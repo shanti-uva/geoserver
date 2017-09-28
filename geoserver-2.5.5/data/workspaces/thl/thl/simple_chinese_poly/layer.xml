@@ -1,0 +1,16 @@
+<layer>
+  <name>simple_chinese_poly</name>
+  <id>LayerInfoImpl--35d414bb:159b22dcf02:-7e8a</id>
+  <path>/</path>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--35d414bb:159b22dcf02:-7f9f</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--35d414bb:159b22dcf02:-7e8b</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

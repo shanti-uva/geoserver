@@ -1,0 +1,14 @@
+<dataStore>
+  <id>DataStoreInfoImpl--35d414bb:159b22dcf02:-7f80</id>
+  <name>boundaries</name>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--35d414bb:159b22dcf02:-7fac</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="charset">ISO-8859-1</entry>
+    <entry key="namespace">http://geonetwork-opensource.org</entry>
+    <entry key="url">file:data/boundaries/gboundaries.shp</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>

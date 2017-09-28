@@ -1,0 +1,24 @@
+<dataStore>
+  <id>DataStoreInfoImpl--35d414bb:159b22dcf02:-7f7f</id>
+  <name>thdl_test</name>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--35d414bb:159b22dcf02:-7fa8</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="schema">public</entry>
+    <entry key="validate connections">false</entry>
+    <entry key="wkb enabled">true</entry>
+    <entry key="loose bbox">true</entry>
+    <entry key="database">places_development</entry>
+    <entry key="port">5432</entry>
+    <entry key="min connections">4</entry>
+    <entry key="dbtype">postgis</entry>
+    <entry key="host">localhost</entry>
+    <entry key="namespace">http://www.thdl.org</entry>
+    <entry key="max connections">10</entry>
+    <entry key="estimated extent">false</entry>
+    <entry key="user">postgres</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>

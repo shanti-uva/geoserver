@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--35d414bb:159b22dcf02:-7ec7</id>
+  <name>test</name>
+  <nativeName>test</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--35d414bb:159b22dcf02:-7fa9</id>
+  </namespace>
+  <abstract>Generated from thdl_test</abstract>
+  <keywords>
+    <string>test</string>
+    <string>thdl_test</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <latLonBoundingBox>
+    <minx>68.14422607456743</minx>
+    <maxx>134.76846313593182</maxx>
+    <miny>6.745831963383463</miny>
+    <maxy>53.553741458247636</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <metadata>
+    <entry key="kml.regionateFeatureLimit">-1</entry>
+    <entry key="cachingEnabled">false</entry>
+    <entry key="indexingEnabled">false</entry>
+    <entry key="dirName">thdl_test_test</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--35d414bb:159b22dcf02:-7f7f</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+</featureType>

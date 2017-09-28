@@ -1,0 +1,16 @@
+<layer>
+  <name>M55f-georectified</name>
+  <id>LayerInfoImpl--35d414bb:159b22dcf02:-7d72</id>
+  <path>/</path>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--35d414bb:159b22dcf02:-7f93</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--35d414bb:159b22dcf02:-7d73</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

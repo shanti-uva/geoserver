@@ -1,0 +1,89 @@
+<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>THDL Place Dictionary Interactive Map</title>
+
+        <style type="text/css">
+            @import "http://o.aolcdn.com/dojo/1.0.0/dijit/themes/tundra/tundra.css";
+            @import "http://o.aolcdn.com/dojo/1.0.0/dojo/resources/dojo.css";
+        </style>
+        
+        <script type="text/javascript" 
+    src="scripts/sarissa/gr/abiss/js/sarissa/sarissa.js"> </script>
+<script type="text/javascript" 
+    src="scripts/sarissa/gr/abiss/js/sarissa/sarissa_ieemu_xpath.js"> </script>
+
+
+        <script type="text/javascript">
+            var djConfig = { isDebug: true };
+        </script>
+
+        <script type="text/javascript" src="http://o.aolcdn.com/dojo/1.0.0/dojo/dojo.xd.js" djConfig="parseOnLoad: true"></script>
+
+        <script type="text/javascript">
+            dojo.require("dojo.data.ItemFileReadStore");
+            dojo.require("dijit.Tree");
+            dojo.require("dojo.parser");
+        </script>
+
+        <script type="text/javascript" src="http://www.openlayers.org/api/OpenLayers.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="main.css" media="all"></link>
+
+        <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/yuiloader/yuiloader-beta-min.js"></script>
+
+        <script type="text/javascript" src="main.js"></script>
+
+
+    </head>
+
+
+    <body>
+    <div id="testbuttons">
+    	<a href="javascript:changeNames('Tibetan')">Tibetan</a>
+    	<a href="javascript:changeNames('thdl')">No labels</a>
+    	<a href="javascript:changeNames('Chinese')">Chinese</a>
+    	<a href="javascript:changeNames('Nepali')">Nepali</a>
+    	<a href="javascript:changeNames('English')">English</a>
+    </div>
+        <div id="stash">
+      
+        </div> 
+
+        <div>
+            <div id="ovrviewdiv"/>
+        </div>
+        <div>
+            <div id="navdiv" class="olControlNavToolbar"/>
+        </div>
+
+        <div>
+            <div class="tundra" dojoType="dojo.data.ItemFileReadStore" url="thdlmenu.js"
+                jsid="featuretypeStore"/>
+            <div class="tundra"  id="treemenu" dojoType="dijit.Tree" store="featuretypeStore"
+                labelAttr="name" label="THDL feature types">
+                <script type="dojo/method" event="onClick" args="item">
+					toggleLayerByObjectType(featuretypeStore.getValue(item,"id"),featuretypeStore.getValue(item,"name"));
+                    
+                </script>
+                
+            </div>
+        </div>
+
+        <div id="mapwrapper">
+            <div id="map"/>
+        </div>
+        
+        <div id="layerlistwrapper">
+        	<div >
+	        	<ol id="layerlist">
+	        		
+	        	</ol>
+        	</div>
+        </div>
+
+        
+
+
+    </body>
+</html>

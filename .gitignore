@@ -1,0 +1,11 @@
+catalog.xml
+catalog.xml.*
+!catalog.xml.sample
+**/logs/*.log*
+data/security/users.properties.*
+!data/security/users.properties.sample
+data/security/masterpw/*
+data/security/masterpw.*
+data/security/usergroup/default/users.xml
+data/security/usergroup/*
+data/security/geoserver.jceks
