@@ -1,0 +1,23 @@
+<featureType datastore = "thdl" >
+  <name>TibetCounties</name>
+  <!--
+    native wich EPGS code for the FeatureTypeInfoDTO
+  -->
+  <SRS>4326</SRS>
+  <SRSHandling>0</SRSHandling>
+  <abstract>Generated from thdl</abstract>
+  <wmspath>/</wmspath>
+  <numDecimals value = "0" />
+  <keywords>TibetCounties, thdl</keywords>
+  <latLonBoundingBox dynamic = "false" maxx = "104.756660461426" maxy = "39.3186149597168" minx = "78.3981475830078" miny = "26.8553295135498" />
+  <nativeBBox dynamic = "true" />
+  <!--
+    the default style this FeatureTypeInfoDTO can be represented by.
+    at least must contain the "default" attribute
+  -->
+  <styles default = "polygon" />
+  <cacheinfo enabled = "false" />
+  <searchable enabled = "false" />
+  <regionateFeatureLimit value = "-1" />
+  <maxFeatures>0</maxFeatures>
+</featureType>

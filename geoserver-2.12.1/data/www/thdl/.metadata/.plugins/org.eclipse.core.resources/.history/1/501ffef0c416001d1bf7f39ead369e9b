@@ -1,0 +1,23 @@
+<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>THDL Place Dictionary Interactive Map</title>
+
+        <script type="text/javascript" src="http://www.openlayers.org/api/OpenLayers.js"/>
+        <link rel="stylesheet" type="text/css" href="main.css" media="all"/>
+        <script type="text/javascript" src="main.js"/>
+
+     
+
+    </head>
+
+
+    <body onload="init()">
+        <div><div id="ovrviewdiv"></div></div>
+        <div><div id="navdiv" class="olControlNavToolbar"></div></div>
+        <div id="mapwrapper"><div id="map"></div></div>
+     
+        
+
+    </body>
+</html>

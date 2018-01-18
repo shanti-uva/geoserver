@@ -1,0 +1,3 @@
+#Format: name=password,ROLE1,...,ROLEN
+#Sat Nov 24 11:39:19 EST 2007
+admin=geoserver,ROLE_ADMINISTRATOR

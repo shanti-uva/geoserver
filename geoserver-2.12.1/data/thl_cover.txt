@@ -1,0 +1,845 @@
+    <format id = "M10" enabled = "true" namespace = "thl" >
+      <title>M10</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M10-georectified.jpg</url>
+    </format>
+    <format id = "M12a-front" enabled = "true" namespace = "thl" >
+      <title>M12a-front</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M12a-front-georectified.jpg</url>
+    </format>
+    <format id = "M12b-front" enabled = "true" namespace = "thl" >
+      <title>M12b-front</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M12b-front-georectified.jpg</url>
+    </format>
+    <format id = "M13" enabled = "true" namespace = "thl" >
+      <title>M13</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M13-georectified.jpg</url>
+    </format>
+    <format id = "M14a-front" enabled = "true" namespace = "thl" >
+      <title>M14a-front</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M14a-front-georectified.jpg</url>
+    </format>
+    <format id = "M14b" enabled = "true" namespace = "thl" >
+      <title>M14b</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M14b-georectified.jpg</url>
+    </format>
+    <format id = "M152" enabled = "true" namespace = "thl" >
+      <title>M152</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M152-georectified.jpg</url>
+    </format>
+    <format id = "M15" enabled = "true" namespace = "thl" >
+      <title>M15</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M15-georectified.jpg</url>
+    </format>
+    <format id = "M167" enabled = "true" namespace = "thl" >
+      <title>M167</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M167-georectified.jpg</url>
+    </format>
+    <format id = "M168" enabled = "true" namespace = "thl" >
+      <title>M168</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M168-georectified.jpg</url>
+    </format>
+    <format id = "M169" enabled = "true" namespace = "thl" >
+      <title>M169</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M169-georectified.jpg</url>
+    </format>
+    <format id = "M16a" enabled = "true" namespace = "thl" >
+      <title>M16a</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M16a-georectified.jpg</url>
+    </format>
+    <format id = "M16b" enabled = "true" namespace = "thl" >
+      <title>M16b</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M16b-georectified.jpg</url>
+    </format>
+    <format id = "M16c" enabled = "true" namespace = "thl" >
+      <title>M16c</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M16c-georectified.jpg</url>
+    </format>
+    <format id = "M16d" enabled = "true" namespace = "thl" >
+      <title>M16d</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M16d-georectified.jpg</url>
+    </format>
+    <format id = "M170" enabled = "true" namespace = "thl" >
+      <title>M170</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M170-georectified.jpg</url>
+    </format>
+    <format id = "M171" enabled = "true" namespace = "thl" >
+      <title>M171</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M171-georectified.jpg</url>
+    </format>
+    <format id = "M172" enabled = "true" namespace = "thl" >
+      <title>M172</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M172-georectified.jpg</url>
+    </format>
+    <format id = "M173" enabled = "true" namespace = "thl" >
+      <title>M173</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M173-georectified.jpg</url>
+    </format>
+    <format id = "M174" enabled = "true" namespace = "thl" >
+      <title>M174</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M174-georectified.jpg</url>
+    </format>
+    <format id = "M175" enabled = "true" namespace = "thl" >
+      <title>M175</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M175-georectified.jpg</url>
+    </format>
+    <format id = "M176" enabled = "true" namespace = "thl" >
+      <title>M176</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M176-georectified.jpg</url>
+    </format>
+    <format id = "M177" enabled = "true" namespace = "thl" >
+      <title>M177</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M177-georectified.jpg</url>
+    </format>
+    <format id = "M178" enabled = "true" namespace = "thl" >
+      <title>M178</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M178-georectified.jpg</url>
+    </format>
+    <format id = "M179" enabled = "true" namespace = "thl" >
+      <title>M179</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M179-georectified.jpg</url>
+    </format>
+    <format id = "M17" enabled = "true" namespace = "thl" >
+      <title>M17</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M17-georectified.jpg</url>
+    </format>
+    <format id = "M180" enabled = "true" namespace = "thl" >
+      <title>M180</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M180-georectified.jpg</url>
+    </format>
+    <format id = "M181" enabled = "true" namespace = "thl" >
+      <title>M181</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M181-georectified.jpg</url>
+    </format>
+    <format id = "M182" enabled = "true" namespace = "thl" >
+      <title>M182</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M182-georectified.jpg</url>
+    </format>
+    <format id = "M183" enabled = "true" namespace = "thl" >
+      <title>M183</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M183-georectified.jpg</url>
+    </format>
+    <format id = "M184" enabled = "true" namespace = "thl" >
+      <title>M184</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M184-georectified.jpg</url>
+    </format>
+    <format id = "M185" enabled = "true" namespace = "thl" >
+      <title>M185</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M185-georectified.jpg</url>
+    </format>
+    <format id = "M186" enabled = "true" namespace = "thl" >
+      <title>M186-georectified1</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M186-georectified1.jpg</url>
+    </format>
+    <format id = "M187" enabled = "true" namespace = "thl" >
+      <title>M187</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M187-georectified.jpg</url>
+    </format>
+    <format id = "M188" enabled = "true" namespace = "thl" >
+      <title>M188</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M188-georectified.jpg</url>
+    </format>
+    <format id = "M189" enabled = "true" namespace = "thl" >
+      <title>M189</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M189-georectified.jpg</url>
+    </format>
+    <format id = "M18" enabled = "true" namespace = "thl" >
+      <title>M18</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M18-georectified.jpg</url>
+    </format>
+    <format id = "M190" enabled = "true" namespace = "thl" >
+      <title>M190</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M190-georectified.jpg</url>
+    </format>
+    <format id = "M191" enabled = "true" namespace = "thl" >
+      <title>M191</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M191-georectified.jpg</url>
+    </format>
+    <format id = "M192" enabled = "true" namespace = "thl" >
+      <title>M192</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M192-georectified.jpg</url>
+    </format>
+    <format id = "M193" enabled = "true" namespace = "thl" >
+      <title>M193</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M193-georectified.jpg</url>
+    </format>
+    <format id = "M194" enabled = "true" namespace = "thl" >
+      <title>M194</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M194-georectified.jpg</url>
+    </format>
+    <format id = "M195" enabled = "true" namespace = "thl" >
+      <title>M195</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M195-georectified.jpg</url>
+    </format>
+    <format id = "M196" enabled = "true" namespace = "thl" >
+      <title>M196</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M196-georectified.jpg</url>
+    </format>
+    <format id = "M197" enabled = "true" namespace = "thl" >
+      <title>M197</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M197-georectified.jpg</url>
+    </format>
+    <format id = "M198" enabled = "true" namespace = "thl" >
+      <title>M198</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M198-georectified.jpg</url>
+    </format>
+    <format id = "M199" enabled = "true" namespace = "thl" >
+      <title>M199</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M199-georectified.jpg</url>
+    </format>
+    <format id = "M19" enabled = "true" namespace = "thl" >
+      <title>M19</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M19-georectified.jpg</url>
+    </format>
+    <format id = "M1a" enabled = "true" namespace = "thl" >
+      <title>M1a</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M1a-georectified.jpg</url>
+    </format>
+    <format id = "M1b" enabled = "true" namespace = "thl" >
+      <title>M1b</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M1b-georectified.jpg</url>
+    </format>
+    <format id = "M1c" enabled = "true" namespace = "thl" >
+      <title>M1c</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M1c-georectified.jpg</url>
+    </format>
+    <format id = "M1d" enabled = "true" namespace = "thl" >
+      <title>M1d</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M1d-georectified.jpg</url>
+    </format>
+    <format id = "M1e" enabled = "true" namespace = "thl" >
+      <title>M1e</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M1e-georectified.jpg</url>
+    </format>
+    <format id = "M1f" enabled = "true" namespace = "thl" >
+      <title>M1f</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M1f-georectified.jpg</url>
+    </format>
+    <format id = "M1g" enabled = "true" namespace = "thl" >
+      <title>M1g</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M1g-georectified.jpg</url>
+    </format>
+    <format id = "M1h" enabled = "true" namespace = "thl" >
+      <title>M1h</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M1h-georectified.jpg</url>
+    </format>
+    <format id = "M1i" enabled = "true" namespace = "thl" >
+      <title>M1i</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M1i-georectified.jpg</url>
+    </format>
+    <format id = "M200" enabled = "true" namespace = "thl" >
+      <title>M200</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M200-georectified.jpg</url>
+    </format>
+    <format id = "M201" enabled = "true" namespace = "thl" >
+      <title>M201</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M201-georectified.jpg</url>
+    </format>
+    <format id = "M202" enabled = "true" namespace = "thl" >
+      <title>M202</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M202-georectified.jpg</url>
+    </format>
+    <format id = "M203" enabled = "true" namespace = "thl" >
+      <title>M203</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M203-georectified.jpg</url>
+    </format>
+    <format id = "M204" enabled = "true" namespace = "thl" >
+      <title>M204</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M204-georectified.jpg</url>
+    </format>
+    <format id = "M205" enabled = "true" namespace = "thl" >
+      <title>M205</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M205-georectified.jpg</url>
+    </format>
+    <format id = "M206" enabled = "true" namespace = "thl" >
+      <title>M206</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M206-georectified.jpg</url>
+    </format>
+    <format id = "M207" enabled = "true" namespace = "thl" >
+      <title>M207</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M207-georectified.jpg</url>
+    </format>
+    <format id = "M208" enabled = "true" namespace = "thl" >
+      <title>M208</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M208-georectified.jpg</url>
+    </format>
+    <format id = "M209" enabled = "true" namespace = "thl" >
+      <title>M209</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M209-georectified.jpg</url>
+    </format>
+    <format id = "M20" enabled = "true" namespace = "thl" >
+      <title>M20</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M20-georectified.jpg</url>
+    </format>
+    <format id = "M210" enabled = "true" namespace = "thl" >
+      <title>M210</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M210-georectified.jpg</url>
+    </format>
+    <format id = "M211" enabled = "true" namespace = "thl" >
+      <title>M211</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M211-georectified.jpg</url>
+    </format>
+    <format id = "M212" enabled = "true" namespace = "thl" >
+      <title>M212</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M212-georectified.jpg</url>
+    </format>
+    <format id = "M213" enabled = "true" namespace = "thl" >
+      <title>M213</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M213-georectified.jpg</url>
+    </format>
+    <format id = "M214" enabled = "true" namespace = "thl" >
+      <title>M214</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M214-georectified.jpg</url>
+    </format>
+    <format id = "M21" enabled = "true" namespace = "thl" >
+      <title>M21</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M21-georectified.jpg</url>
+    </format>
+    <format id = "M23" enabled = "true" namespace = "thl" >
+      <title>M23</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M23-georectified.jpg</url>
+    </format>
+    <format id = "M24a-front" enabled = "true" namespace = "thl" >
+      <title>M24a-front</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M24a-front-georectified.jpg</url>
+    </format>
+    <format id = "M24b-front" enabled = "true" namespace = "thl" >
+      <title>M24b-front</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M24b-front-georectified.jpg</url>
+    </format>
+    <format id = "M26a" enabled = "true" namespace = "thl" >
+      <title>M26a</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M26a-georectified.jpg</url>
+    </format>
+    <format id = "M26b" enabled = "true" namespace = "thl" >
+      <title>M26b</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M26b-georectified.jpg</url>
+    </format>
+    <format id = "M26c" enabled = "true" namespace = "thl" >
+      <title>M26c</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M26c-georectified.jpg</url>
+    </format>
+    <format id = "M26d" enabled = "true" namespace = "thl" >
+      <title>M26d</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M26d-georectified.jpg</url>
+    </format>
+    <format id = "M26e" enabled = "true" namespace = "thl" >
+      <title>M26e</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M26e-georectified.jpg</url>
+    </format>
+    <format id = "M26f" enabled = "true" namespace = "thl" >
+      <title>M26f</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M26f-georectified.jpg</url>
+    </format>
+    <format id = "M26g" enabled = "true" namespace = "thl" >
+      <title>M26g</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M26g-georectified.jpg</url>
+    </format>
+    <format id = "M26h" enabled = "true" namespace = "thl" >
+      <title>M26h</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M26h-georectified.jpg</url>
+    </format>
+    <format id = "M26i" enabled = "true" namespace = "thl" >
+      <title>M26i</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M26i-georectified.jpg</url>
+    </format>
+    <format id = "M26j" enabled = "true" namespace = "thl" >
+      <title>M26j</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M26j-georectified.jpg</url>
+    </format>
+    <format id = "M26k" enabled = "true" namespace = "thl" >
+      <title>M26k</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M26k-georectified.jpg</url>
+    </format>
+    <format id = "M26l" enabled = "true" namespace = "thl" >
+      <title>M26l</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M26l-georectified.jpg</url>
+    </format>
+    <format id = "M26m" enabled = "true" namespace = "thl" >
+      <title>M26m</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M26m-georectified.jpg</url>
+    </format>
+    <format id = "M26n" enabled = "true" namespace = "thl" >
+      <title>M26n</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M26n-georectified.jpg</url>
+    </format>
+    <format id = "M26o" enabled = "true" namespace = "thl" >
+      <title>M26o</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M26o-georectified.jpg</url>
+    </format>
+    <format id = "M26p" enabled = "true" namespace = "thl" >
+      <title>M26p</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M26p-georectified.jpg</url>
+    </format>
+    <format id = "M26q" enabled = "true" namespace = "thl" >
+      <title>M26q</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M26q-georectified.jpg</url>
+    </format>
+    <format id = "M27a" enabled = "true" namespace = "thl" >
+      <title>M27a</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M27a-georectified.jpg</url>
+    </format>
+    <format id = "M27b" enabled = "true" namespace = "thl" >
+      <title>M27b</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M27b-georectified.jpg</url>
+    </format>
+    <format id = "M28" enabled = "true" namespace = "thl" >
+      <title>M28</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M28-georectified.jpg</url>
+    </format>
+    <format id = "M29" enabled = "true" namespace = "thl" >
+      <title>M29</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M29-georectified.jpg</url>
+    </format>
+    <format id = "M2" enabled = "true" namespace = "thl" >
+      <title>M2</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M2-georectified.jpg</url>
+    </format>
+    <format id = "M30" enabled = "true" namespace = "thl" >
+      <title>M30</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M30-georectified.jpg</url>
+    </format>
+    <format id = "M31" enabled = "true" namespace = "thl" >
+      <title>M31</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M31-georectified.jpg</url>
+    </format>
+    <format id = "M33a" enabled = "true" namespace = "thl" >
+      <title>M33a</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M33a-georectified.jpg</url>
+    </format>
+    <format id = "M33b" enabled = "true" namespace = "thl" >
+      <title>M33b</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M33b-georectified.jpg</url>
+    </format>
+    <format id = "M33c" enabled = "true" namespace = "thl" >
+      <title>M33c</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M33c-georectified.jpg</url>
+    </format>
+    <format id = "M33d" enabled = "true" namespace = "thl" >
+      <title>M33d</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M33d-georectified.jpg</url>
+    </format>
+    <format id = "M33e" enabled = "true" namespace = "thl" >
+      <title>M33e</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M33e-georectified.jpg</url>
+    </format>
+    <format id = "M37" enabled = "true" namespace = "thl" >
+      <title>M37</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M37-georectified.jpg</url>
+    </format>
+    <format id = "M38" enabled = "true" namespace = "thl" >
+      <title>M38</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M38-georectified.jpg</url>
+    </format>
+    <format id = "M39" enabled = "true" namespace = "thl" >
+      <title>M39</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M39-georectified.jpg</url>
+    </format>
+    <format id = "M40" enabled = "true" namespace = "thl" >
+      <title>M40</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M40-georectified.jpg</url>
+    </format>
+    <format id = "M41" enabled = "true" namespace = "thl" >
+      <title>M41</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M41-georectified.jpg</url>
+    </format>
+    <format id = "M42" enabled = "true" namespace = "thl" >
+      <title>M42</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M42-georectified.jpg</url>
+    </format>
+    <format id = "M43" enabled = "true" namespace = "thl" >
+      <title>M43</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M43-georectified.jpg</url>
+    </format>
+    <format id = "M44" enabled = "true" namespace = "thl" >
+      <title>M44</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M44-georectified.jpg</url>
+    </format>
+    <format id = "M45" enabled = "true" namespace = "thl" >
+      <title>M45</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M45-georectified.jpg</url>
+    </format>
+    <format id = "M50" enabled = "true" namespace = "thl" >
+      <title>M50</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M50-georectified.jpg</url>
+    </format>
+    <format id = "M51" enabled = "true" namespace = "thl" >
+      <title>M51</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M51-georectified.jpg</url>
+    </format>
+    <format id = "M52" enabled = "true" namespace = "thl" >
+      <title>M52</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M52-georectified.jpg</url>
+    </format>
+    <format id = "M53" enabled = "true" namespace = "thl" >
+      <title>M53</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M53-georectified.jpg</url>
+    </format>
+    <format id = "M54" enabled = "true" namespace = "thl" >
+      <title>M54</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M54-georectified.jpg</url>
+    </format>
+    <format id = "M55a" enabled = "true" namespace = "thl" >
+      <title>M55a</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M55a-georectified.jpg</url>
+    </format>
+    <format id = "M55b" enabled = "true" namespace = "thl" >
+      <title>M55b</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M55b-georectified.jpg</url>
+    </format>
+    <format id = "M55c" enabled = "true" namespace = "thl" >
+      <title>M55c</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M55c-georectified.jpg</url>
+    </format>
+    <format id = "M55d" enabled = "true" namespace = "thl" >
+      <title>M55d</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M55d-georectified.jpg</url>
+    </format>
+    <format id = "M55e" enabled = "true" namespace = "thl" >
+      <title>M55e</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M55e-georectified.jpg</url>
+    </format>
+    <format id = "M55f" enabled = "true" namespace = "thl" >
+      <title>M55f</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M55f-georectified.jpg</url>
+    </format>
+    <format id = "M59" enabled = "true" namespace = "thl" >
+      <title>M59</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M59-georectified.jpg</url>
+    </format>
+    <format id = "M5" enabled = "true" namespace = "thl" >
+      <title>M5</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M5-georectified.jpg</url>
+    </format>
+    <format id = "M60" enabled = "true" namespace = "thl" >
+      <title>M60</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M60-georectified.jpg</url>
+    </format>
+    <format id = "M61" enabled = "true" namespace = "thl" >
+      <title>M61</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M61-georectified.jpg</url>
+    </format>
+    <format id = "M62" enabled = "true" namespace = "thl" >
+      <title>M62</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M62-georectified.jpg</url>
+    </format>
+    <format id = "M63" enabled = "true" namespace = "thl" >
+      <title>M63</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M63-georectified.jpg</url>
+    </format>
+    <format id = "M64" enabled = "true" namespace = "thl" >
+      <title>M64</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M64-georectified.jpg</url>
+    </format>
+    <format id = "M65" enabled = "true" namespace = "thl" >
+      <title>M65</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M65-georectified.jpg</url>
+    </format>
+    <format id = "M66" enabled = "true" namespace = "thl" >
+      <title>M66</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M66-georectified.jpg</url>
+    </format>
+    <format id = "M67" enabled = "true" namespace = "thl" >
+      <title>M67</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M67-georectified.jpg</url>
+    </format>
+    <format id = "M68" enabled = "true" namespace = "thl" >
+      <title>M68</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M68-georectified.jpg</url>
+    </format>
+    <format id = "M69" enabled = "true" namespace = "thl" >
+      <title>M69</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M69-georectified.jpg</url>
+    </format>
+    <format id = "M6a" enabled = "true" namespace = "thl" >
+      <title>M6a</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M6a-georectified.jpg</url>
+    </format>
+    <format id = "M6b" enabled = "true" namespace = "thl" >
+      <title>M6b</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M6b-georectified.jpg</url>
+    </format>
+    <format id = "M70-400pi" enabled = "true" namespace = "thl" >
+      <title>M70-400pi</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M70-400pi.jpg</url>
+    </format>
+    <format id = "M70" enabled = "true" namespace = "thl" >
+      <title>M70</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M70-georectified.jpg</url>
+    </format>
+    <format id = "M71" enabled = "true" namespace = "thl" >
+      <title>M71</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M71-georectified.jpg</url>
+    </format>
+    <format id = "M72" enabled = "true" namespace = "thl" >
+      <title>M72</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M72-georectified.jpg</url>
+    </format>
+    <format id = "M73" enabled = "true" namespace = "thl" >
+      <title>M73</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M73-georectified.jpg</url>
+    </format>
+    <format id = "M74" enabled = "true" namespace = "thl" >
+      <title>M74</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M74-georectified.jpg</url>
+    </format>
+    <format id = "M75" enabled = "true" namespace = "thl" >
+      <title>M75</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M75-georectified.jpg</url>
+    </format>
+    <format id = "M76" enabled = "true" namespace = "thl" >
+      <title>M76</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M76-georectified.jpg</url>
+    </format>
+    <format id = "M77" enabled = "true" namespace = "thl" >
+      <title>M77</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M77-georectified.jpg</url>
+    </format>
+    <format id = "M78" enabled = "true" namespace = "thl" >
+      <title>M78</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M78-georectified.jpg</url>
+    </format>
+    <format id = "M79" enabled = "true" namespace = "thl" >
+      <title>M79</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M79-georectified.jpg</url>
+    </format>
+    <format id = "M7" enabled = "true" namespace = "thl" >
+      <title>M7</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M7-georectified.jpg</url>
+    </format>
+    <format id = "M80" enabled = "true" namespace = "thl" >
+      <title>M80</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M80-georectified.jpg</url>
+    </format>
+    <format id = "M81-front" enabled = "true" namespace = "thl" >
+      <title>M81-front</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M81-front-georectified.jpg</url>
+    </format>
+    <format id = "M82" enabled = "true" namespace = "thl" >
+      <title>M82</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M82-georectified.jpg</url>
+    </format>
+    <format id = "M83" enabled = "true" namespace = "thl" >
+      <title>M83</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M83-georectified.jpg</url>
+    </format>
+    <format id = "M84-front" enabled = "true" namespace = "thl" >
+      <title>M84-front</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M84-front-georectified.jpg</url>
+    </format>
+    <format id = "M85" enabled = "true" namespace = "thl" >
+      <title>M85</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M85-georectified.jpg</url>
+    </format>
+    <format id = "M86" enabled = "true" namespace = "thl" >
+      <title>M86</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M86-georectified.jpg</url>
+    </format>
+    <format id = "M87" enabled = "true" namespace = "thl" >
+      <title>M87</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M87-georectified.jpg</url>
+    </format>
+    <format id = "M88" enabled = "true" namespace = "thl" >
+      <title>M88</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M88-georectified.jpg</url>
+    </format>
+    <format id = "M89" enabled = "true" namespace = "thl" >
+      <title>M89</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M89-georectified.jpg</url>
+    </format>
+    <format id = "M8a" enabled = "true" namespace = "thl" >
+      <title>M8a</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M8a-georectified.jpg</url>
+    </format>
+    <format id = "M8b" enabled = "true" namespace = "thl" >
+      <title>M8b</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M8b-georectified.jpg</url>
+    </format>
+    <format id = "M90" enabled = "true" namespace = "thl" >
+      <title>M90</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M90-georectified.jpg</url>
+    </format>
+    <format id = "M91" enabled = "true" namespace = "thl" >
+      <title>M91</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M91-georectified.jpg</url>
+    </format>
+    <format id = "M92" enabled = "true" namespace = "thl" >
+      <title>M92</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M92-georectified.jpg</url>
+    </format>
+    <format id = "M9a" enabled = "true" namespace = "thl" >
+      <title>M9a</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M9a-georectified.jpg</url>
+    </format>
+    <format id = "M9b" enabled = "true" namespace = "thl" >
+      <title>M9b</title>
+      <type>WorldImage</type>
+      <url>file:coverages/georectified/M9b-georectified.jpg</url>
+    </format>

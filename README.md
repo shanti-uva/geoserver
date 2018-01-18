@@ -29,6 +29,7 @@ PostgreSQL with PostGIS
   + Change admin password.
   + Remove the file `masterpw.info` after reading it.
   + Review and setup all the security settings on your server before publishing on an public server.
+  + Check the WMS configuration to `Output bounding box for every supported CRS`
 
 Geoserver will be ready for use.
 

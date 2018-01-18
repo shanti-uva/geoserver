@@ -1,0 +1,78 @@
+#!/bin/bash
+#
+# One-time utility for generating the support files GeoServer needs to
+# display all of THL's georectified images.
+
+# Iterate through all the JPEGs
+for i in `ls georectified/*.jpg`; do 
+  j=`basename $i -georectified.jpg` 
+  k=`basename $i .jpg`
+
+  # A few of the file names are odd.
+  if [ $j == "M186-georectified1.jpg" ]; then 
+    j="M186"
+    k="M186-georectified1"
+  fi 
+
+  if [ $j == "M70-400pi.jpg" ]; then
+    j="M70-400pi"
+    k="M70-400pi"
+  fi
+
+  if [ $j != "M10" ]; then 
+
+    # Create the required subdirectory
+    new_dir="${j}_$k"
+
+    # If the directory already exists, move on.
+    if [ -d $new_dir ]; then
+      echo Skipping $new_dir
+      continue
+    fi
+    mkdir $new_dir
+    echo $new_dir
+
+    # Copy info.xml from an existing known source
+    cp M10_M10-georectified/info.xml $new_dir/
+
+    # Substitute the new label and filename.
+    perl -pi -e "s/M10-georectified/$k/g" $new_dir/info.xml
+    perl -pi -e "s/M10/$j/g" $new_dir/info.xml
+
+    # Extract relevant info from the world file
+    jgw="georectified/$k.jgw"
+    scx=`head -n 1 $jgw`
+    scy=`head -n 4 $jgw | tail -n 1`
+    shx=`head -n 2 $jgw | tail -n 1`
+    shy=`head -n 3 $jgw | tail -n 1`
+    trx=`head -n 5 $jgw | tail -n 1`
+    try=`tail -n 1 $jgw`
+
+    # Insert the world file values.
+    perl -pi -e "s/<scaleX>.*<\/scaleX>/<scaleX>$scx<\/scaleX>/" $new_dir/info.xml
+    perl -pi -e "s/<scaleY>.*<\/scaleY>/<scaleY>$scy<\/scaleY>/" $new_dir/info.xml 
+    perl -pi -e "s/<shearX>.*<\/shearX>/<shearX>$shx<\/shearX>/" $new_dir/info.xml 
+    perl -pi -e "s/<shearY>.*<\/shearY>/<shearY>$shy<\/shearY>/" $new_dir/info.xml 
+    perl -pi -e "s/<translateX>.*<\/translateX>/<translateX>$trx<\/translateX>/" $new_dir/info.xml 
+    perl -pi -e "s/<translateY>.*<\/translateY>/<translateY>$try<\/translateY>/" $new_dir/info.xml 
+
+    # Get information about the image.
+    dx=`perl -e '$j = \`identify georectified\/M10-georectified.jpg\`; $j =~ /(\d+)x(\d+)/; print "$1"'`
+    dy=`perl -e '$j = \`identify georectified\/M10-georectified.jpg\`; $j =~ /(\d+)x(\d+)/; print "$2"'`
+    xbl=`perl -e "print $trx - ($scx * 0.5)"`
+    ytr=`perl -e "print $try - ($scy * 0.5)"`
+    ybl=`perl -e "print $ytr + ($scy * $dy)"`
+    xtr=`perl -e "print $xbl + ($scx * $dx)"`
+
+    # Modify information about position and size of the image.
+    perl -pi -e "s/<high>.*<\/high>/<high>$dx $dy <\/high>/" $new_dir/info.xml
+    perl -ni -e 'print if !/<pos>/' $new_dir/info.xml
+    perl -ni \
+      -e "if (/<\/envelope>/) {" \
+      -e "  print \"    <pos>$xbl $ybl</pos>\n\";" \
+      -e "  print \"    <pos>$xtr $ytr</pos>\n\";" \
+      -e '  print $_;' \
+      -e "} else { print; }" $new_dir/info.xml
+     
+  fi 
+done

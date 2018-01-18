@@ -1,0 +1,44 @@
+var map;
+// Instantiate and configure Yahoo YUI Loader:
+var loader = new YAHOO.util.YUILoader({
+
+// Identify the components to load.  Loader will automatically identify
+// any additional dependencies required for the specified components.
+require: ["resize", "treeview"],
+
+// Configure loader to pull in optional dependencies.  For example, animation
+// is an optional dependency for slider.
+loadOptional: true,
+
+// The function to call when all script/css resources have been loaded
+onSuccess: function() {
+
+    map = new OpenLayers.Map('map', { controls: [] });
+    
+    map.addControl(new OpenLayers.Control.PanZoomBar());
+    //map.addControl(new OpenLayers.Control.LayerSwitcher({'ascending':false}));
+    map.addControl(new OpenLayers.Control.ScaleLine());
+    map.addControl(new OpenLayers.Control.OverviewMap(
+        {   'div' : OpenLayers.Util.getElement('ovrviewdiv') })); 
+    map.addControl(new OpenLayers.Control.KeyboardDefaults());
+    map.addControl(new OpenLayers.Control.NavToolbar(
+        {   'div' : OpenLayers.Util.getElement('navdiv') } ) );
+    
+    var jpl = new OpenLayers.Layer.WMS( "Global Mosaic from Telascience",
+    "http://t1.hypercube.telascience.org/cgi-bin/landsat7", 
+    {layers: "landsat7"});  
+    
+    map.addLayer(jpl);
+    map.zoomTo(2);
+    
+     var resize = new YAHOO.util.Resize('map', {
+            knobHandles: true
+        });
+    }
+    
+});
+
+// Load the files using the insert() method. The insert method takes an optional
+// configuration object, and in this case we have configured everything in
+// the constructor, so we don't need to pass anything to insert().
+loader.insert();

@@ -1,0 +1,165 @@
+<?config.xml version="1.0" encoding="UTF-8"?>
+<!--
+  Service level configuration
+-->
+<serverConfiguration >
+  <global >
+    <log4jConfigFile>VERBOSE_LOGGING.properties</log4jConfigFile>
+    <suppressStdOutLogging value = "false" />
+    <logLocation>logs/geoserver.log</logLocation>
+    <JaiMemoryCapacity value = "0.75" />
+    <JaiMemoryThreshold value = "0.75" />
+    <JaiTileThreads value = "7" />
+    <JaiTilePriority value = "5" />
+    <JaiRecycling value = "true" />
+    <ImageIOCache value = "true" />
+    <JaiJPEGNative value = "true" />
+    <JaiPNGNative value = "true" />
+    <JaiMosaicNative value = "false" />
+    <!--
+      Sets the max number of Features returned by GetFeature
+    -->
+    <maxFeatures value = "1000000" />
+    <!--
+      Whether newlines and indents should be returned in 
+      XML responses.  Default is false
+    -->
+    <verbose value = "false" />
+    <!--
+      Whether the Service Exceptions returned to clients should contain
+      full java stack traces (useful for debugging).
+    -->
+    <verboseExceptions value = "true" />
+    <!--
+      Sets the max number of decimal places past the zero returned in
+      a GetFeature response.  Default is 4
+    -->
+    <numDecimals value = "8" />
+    <!--
+      Sets the global character set.  This could use some more testing
+      from international users, but what it does is sets the encoding
+      globally for all postgis database connections (the charset tag
+      in FeatureTypeConfig), as well as specifying the encoding in the return
+      config.xml header and mime type.  The default is UTF-8.  Also be warned
+      that GeoServer does not check if the CharSet is valid before
+      attempting to use it, so it will fail miserably if a bad charset
+      is used.
+    -->
+    <charSet value = "UTF-8" />
+    <ContactInformation >
+      <ContactPersonPrimary >
+        <ContactPerson>DSS R &amp; D</ContactPerson>
+        <ContactOrganization>University of Virginia Library</ContactOrganization>
+      </ContactPersonPrimary>
+      <ContactPosition></ContactPosition>
+      <ContactAddress >
+        <AddressType></AddressType>
+        <Address></Address>
+        <City>Charlottesville</City>
+        <StateOrProvince>VA</StateOrProvince>
+        <PostCode>22904</PostCode>
+        <Country></Country>
+      </ContactAddress>
+      <ContactVoiceTelephone></ContactVoiceTelephone>
+      <ContactFacsimileTelephone></ContactFacsimileTelephone>
+      <ContactElectronicMailAddress></ContactElectronicMailAddress>
+      <ContactOnlineResource>http://geoserver.org</ContactOnlineResource>
+    </ContactInformation>
+    <!--
+      Stores the current updateSequence
+    -->
+    <updateSequence>290</updateSequence>
+  </global>
+  <services >
+    <service enabled = "false" type = "WCS" >
+      <!--
+        ServiceDTO elements, needed for the capabilities document
+        Title and OnlineResource are the two required
+      -->
+      <name>My GeoServer WCS</name>
+      <title>My GeoServer WCS</title>
+      <abstract>
+This is a description of your Web Coverage Server.
+     </abstract>
+      <metadataLink about = "http://geoserver.sourceforge.net/html/index.php" type = "undef" metadataType = "other" ></metadataLink>
+      <keywords >
+        <keyword>WCS</keyword>
+        <keyword>WMS</keyword>
+        <keyword>GEOSERVER</keyword>
+      </keywords>
+      <onlineResource>http://geoserver.sourceforge.net/html/index.php</onlineResource>
+      <fees>NONE</fees>
+      <accessConstraints>NONE</accessConstraints>
+      <srsXmlStyle value = "false" />
+      <maintainer>http://jira.codehaus.org/secure/BrowseProject.jspa?id=10311</maintainer>
+    </service>
+    <service enabled = "true" type = "WFS" >
+      <!--
+        ServiceDTO elements, needed for the capabilities document
+        Title and OnlineResource are the two required
+      -->
+      <name>DSS R &amp; D WFS</name>
+      <title>Meridian WFS</title>
+      <abstract>http://www.lib.virginia.edu/scholarslab/
+     </abstract>
+      <metadataLink ></metadataLink>
+      <keywords >
+        <keyword>WFS
+</keyword>
+        <keyword>WMS
+</keyword>
+        <keyword>GEOSERVER
+</keyword>
+        <keyword>Scholars Lab</keyword>
+      </keywords>
+      <onlineResource>http://geoserver.sourceforge.net/html/index.php</onlineResource>
+      <fees>NONE</fees>
+      <accessConstraints>NONE</accessConstraints>
+      <srsXmlStyle value = "true" />
+      <serviceLevel value = "1" />
+      <citeConformanceHacks>false</citeConformanceHacks>
+      <maintainer>http://www.lib.virginia.edu/scholarslab/</maintainer>
+    </service>
+    <service enabled = "true" type = "WMS" >
+      <!--
+        ServiceDTO elements, needed for the capabilities document
+        Title and OnlineResource are the two required
+      -->
+      <name>OGC:WMS</name>
+      <title>DSS R  &amp; D WMS</title>
+      <abstract>This is a description of your Web Map Server.
+     </abstract>
+      <metadataLink ></metadataLink>
+      <keywords >
+        <keyword>WFS
+</keyword>
+        <keyword>WMS
+</keyword>
+        <keyword>GEOSERVER
+</keyword>
+      </keywords>
+      <onlineResource>http://geoserver.sourceforge.net/html/index.php</onlineResource>
+      <fees>NONE</fees>
+      <accessConstraints>NONE</accessConstraints>
+      <srsXmlStyle value = "false" />
+      <maintainer>http://www.lib.virginia.edu/scholarslab/</maintainer>
+      <svgRenderer>Simple</svgRenderer>
+      <BaseMapGroups >
+      </BaseMapGroups>
+      <!--
+        List of EPSG codes used to limit the number of SRS elements
+        shown in the WMS GetCapabilities document
+      -->
+      <capabilitiesCrsList></capabilitiesCrsList>
+      <svgAntiAlias>true</svgAntiAlias>
+      <globalWatermarking>false</globalWatermarking>
+      <globalWatermarkingTransparency>0</globalWatermarkingTransparency>
+      <globalWatermarkingPosition>8</globalWatermarkingPosition>
+      <maxBuffer>25</maxBuffer>
+      <maxRequestMemory>100000</maxRequestMemory>
+      <maxRenderingTime>120</maxRenderingTime>
+      <maxRenderingErrors>100</maxRenderingErrors>
+      <allowInterpolation>Bicubic</allowInterpolation>
+    </service>
+  </services>
+</serverConfiguration>

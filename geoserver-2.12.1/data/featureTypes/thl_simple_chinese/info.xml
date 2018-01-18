@@ -1,0 +1,26 @@
+<featureType datastore = "thl" >
+  <name>simple_chinese</name>
+  <!--
+    native wich EPGS code for the FeatureTypeInfoDTO
+  -->
+  <SRS>4326</SRS>
+  <SRSHandling>0</SRSHandling>
+  <title>simple_chinese_Type</title>
+  <abstract>Generated from thl</abstract>
+  <wmspath>/</wmspath>
+  <numDecimals value = "0" />
+  <keywords>simple_chinese, thl</keywords>
+  <latLonBoundingBox dynamic = "false" maxx = "99.033" maxy = "34.583" minx = "78.701" miny = "26.382" />
+  <nativeBBox dynamic = "true" />
+  <!--
+    the default style this FeatureTypeInfoDTO can be represented by.
+    at least must contain the "default" attribute
+  -->
+  <styles default = "thl_ukai" />
+  <cacheinfo enabled = "false" maxage = "" />
+  <searchable enabled = "false" />
+  <regionateAttribute value = "null" />
+  <regionateStrategy value = "best_guess" />
+  <regionateFeatureLimit value = "15" />
+  <maxFeatures>0</maxFeatures>
+</featureType>

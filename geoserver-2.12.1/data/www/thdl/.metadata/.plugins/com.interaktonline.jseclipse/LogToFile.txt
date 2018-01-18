@@ -1,0 +1,62 @@
+Apr 30, 2008 10:46:39 AM com.interaktonline.jseclipse.JavaScriptEditorPlugin start
+INFO: JSEclipse start
+Apr 30, 2008 10:46:40 AM com.interaktonline.jseclipse.library.ResourceParser run
+INFO: parsing project: thdl-im
+Apr 30, 2008 10:46:40 AM com.interaktonline.jseclipse.library.ResourceParser run
+INFO: parsing project: thdl-im
+Apr 30, 2008 10:46:40 AM com.interaktonline.jseclipse.library.ResourceParser run
+INFO: -- JsLibraryManager -- parsing for: 209
+Apr 30, 2008 10:46:40 AM com.interaktonline.jseclipse.library.ResourceParser run
+INFO: -- HtmlLibraryManager -- parsing for: 259
+Apr 30, 2008 10:48:47 AM com.interaktonline.jseclipse.library.ResourceParser run
+INFO: parsing file: L/thdl-im/main.js
+Apr 30, 2008 10:48:47 AM com.interaktonline.jseclipse.library.ResourceParser run
+INFO: -- JsLibraryManager -- parsing for: 5
+Apr 30, 2008 10:49:34 AM com.interaktonline.jseclipse.library.ResourceParser run
+INFO: parsing file: L/thdl-im/main.js
+Apr 30, 2008 10:49:34 AM com.interaktonline.jseclipse.library.ResourceParser run
+INFO: -- JsLibraryManager -- parsing for: 4
+Apr 30, 2008 10:55:19 AM com.interaktonline.jseclipse.library.ResourceParser run
+INFO: parsing file: L/thdl-im/main.js
+Apr 30, 2008 10:55:19 AM com.interaktonline.jseclipse.library.ResourceParser run
+INFO: -- JsLibraryManager -- parsing for: 5
+Apr 30, 2008 11:12:56 AM com.interaktonline.jseclipse.library.ResourceParser run
+INFO: parsing file: L/thdl-im/main.js
+Apr 30, 2008 11:12:56 AM com.interaktonline.jseclipse.library.ResourceParser run
+INFO: -- JsLibraryManager -- parsing for: 4
+Apr 30, 2008 11:16:06 AM com.interaktonline.jseclipse.library.ResourceParser run
+INFO: parsing file: L/thdl-im/main.js
+Apr 30, 2008 11:16:06 AM com.interaktonline.jseclipse.library.ResourceParser run
+INFO: -- JsLibraryManager -- parsing for: 19
+Apr 30, 2008 11:17:54 AM com.interaktonline.jseclipse.library.ResourceParser run
+INFO: parsing file: L/thdl-im/main.js
+Apr 30, 2008 11:17:54 AM com.interaktonline.jseclipse.library.ResourceParser run
+INFO: -- JsLibraryManager -- parsing for: 3
+Apr 30, 2008 11:22:45 AM com.interaktonline.jseclipse.library.ResourceParser run
+INFO: parsing file: L/thdl-im/main.js
+Apr 30, 2008 11:22:45 AM com.interaktonline.jseclipse.library.ResourceParser run
+INFO: -- JsLibraryManager -- parsing for: 5
+Apr 30, 2008 11:24:41 AM com.interaktonline.jseclipse.library.ResourceParser run
+INFO: parsing file: L/thdl-im/main.js
+Apr 30, 2008 11:24:41 AM com.interaktonline.jseclipse.library.ResourceParser run
+INFO: -- JsLibraryManager -- parsing for: 4
+Apr 30, 2008 11:24:50 AM com.interaktonline.jseclipse.library.ResourceParser run
+INFO: parsing file: L/thdl-im/main.js
+Apr 30, 2008 11:24:50 AM com.interaktonline.jseclipse.library.ResourceParser run
+INFO: -- JsLibraryManager -- parsing for: 11
+Apr 30, 2008 11:25:48 AM com.interaktonline.jseclipse.library.ResourceParser run
+INFO: parsing file: L/thdl-im/main.js
+Apr 30, 2008 11:25:48 AM com.interaktonline.jseclipse.library.ResourceParser run
+INFO: -- JsLibraryManager -- parsing for: 18
+Apr 30, 2008 11:28:22 AM com.interaktonline.jseclipse.library.ResourceParser run
+INFO: parsing file: L/thdl-im/main.js
+Apr 30, 2008 11:28:22 AM com.interaktonline.jseclipse.library.ResourceParser run
+INFO: -- JsLibraryManager -- parsing for: 4
+Apr 30, 2008 11:29:27 AM com.interaktonline.jseclipse.library.ResourceParser run
+INFO: parsing file: L/thdl-im/main.js
+Apr 30, 2008 11:29:27 AM com.interaktonline.jseclipse.library.ResourceParser run
+INFO: -- JsLibraryManager -- parsing for: 3
+Apr 30, 2008 11:30:19 AM com.interaktonline.jseclipse.library.ResourceParser run
+INFO: parsing file: L/thdl-im/main.js
+Apr 30, 2008 11:30:19 AM com.interaktonline.jseclipse.library.ResourceParser run
+INFO: -- JsLibraryManager -- parsing for: 5

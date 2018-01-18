@@ -1,0 +1,32 @@
+#ovrviewdiv {
+   top:0px; 
+}
+
+#treemenu {
+    float:left
+}
+
+#stash {
+    display:none;
+}
+
+#navdiv div {
+    top:0px;
+}
+
+#navdiv  {
+    float:right;
+} 
+
+#mapwrapper {
+    width: 80%;
+    height: 512px;
+
+}
+
+
+#map {
+    width: 100%;
+    height: 100%;
+
+}

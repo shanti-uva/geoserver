@@ -1,0 +1,82 @@
+<coverage format = "M205" >
+  <name>M205-georectified</name>
+  <label>M205-georectified is a A raster file accompanied by a spatial data file</label>
+  <description>/sds/projects/thdl-geoserver/releases/20091014104600/data/coverages/georectified/M205-georectified.jpg</description>
+  <wmspath>/</wmspath>
+  <keywords>WCS,M205,M205-georectified</keywords>
+  <!--
+    the default style this CoverageInfoDTO can be represented by.
+    at least must contain the "default" attribute
+  -->
+  <styles default = "image" />
+  <!--
+    crs: native CRS definition, srsName: user defined CRS identifier
+  -->
+  <envelope crs = "GEOGCS[&apos;WGS 84&apos;, 
+  DATUM[&apos;World Geodetic System 1984&apos;, 
+    SPHEROID[&apos;WGS 84&apos;, 6378137.0, 298.257223563, AUTHORITY[&apos;EPSG&apos;,&apos;7030&apos;]], 
+    AUTHORITY[&apos;EPSG&apos;,&apos;6326&apos;]], 
+  PRIMEM[&apos;Greenwich&apos;, 0.0, AUTHORITY[&apos;EPSG&apos;,&apos;8901&apos;]], 
+  UNIT[&apos;degree&apos;, 0.017453292519943295], 
+  AXIS[&apos;Geodetic longitude&apos;, EAST], 
+  AXIS[&apos;Geodetic latitude&apos;, NORTH], 
+  AUTHORITY[&apos;EPSG&apos;,&apos;4326&apos;]]" srsName = "EPSG:4326" >
+    <pos>100.686025402 24.0537451719</pos>
+    <pos>107.834977402 30.9979051719</pos>
+  </envelope>
+  <grid dimension = "2" >
+    <low>0 0 </low>
+    <high>12951 12580 </high>
+    <axisName>RED_BAND</axisName>
+    <axisName>GREEN_BAND</axisName>
+    <axisName>BLUE_BAND</axisName>
+    <geoTransform >
+      <scaleX>5.52E-4</scaleX>
+      <scaleY>-5.52E-4</scaleY>
+      <shearX>0.0</shearX>
+      <shearY>0.0</shearY>
+      <translateX>100.686301402</translateX>
+      <translateY>30.9976291719</translateY>
+    </geoTransform>
+  </grid>
+  <CoverageDimension >
+    <name>RED_BAND</name>
+    <description>GridSampleDimension[-Infinity,Infinity]</description>
+    <interval >
+      <min>-Infinity</min>
+      <max>Infinity</max>
+    </interval>
+    <nullValues >
+    </nullValues>
+  </CoverageDimension>
+  <CoverageDimension >
+    <name>GREEN_BAND</name>
+    <description>GridSampleDimension[-Infinity,Infinity]</description>
+    <interval >
+      <min>-Infinity</min>
+      <max>Infinity</max>
+    </interval>
+    <nullValues >
+    </nullValues>
+  </CoverageDimension>
+  <CoverageDimension >
+    <name>BLUE_BAND</name>
+    <description>GridSampleDimension[-Infinity,Infinity]</description>
+    <interval >
+      <min>-Infinity</min>
+      <max>Infinity</max>
+    </interval>
+    <nullValues >
+    </nullValues>
+  </CoverageDimension>
+  <supportedCRSs >
+    <requestCRSs>EPSG:4326</requestCRSs>
+    <responseCRSs>EPSG:4326</responseCRSs>
+  </supportedCRSs>
+  <supportedFormats nativeFormat = "WorldImage" >
+    <formats>ARCGRID,GTOPO30,GEOTIFF,IMAGEMOSAIC,GIF,PNG,JPEG,TIFF</formats>
+  </supportedFormats>
+  <supportedInterpolations default = "nearest neighbor" >
+    <interpolationMethods>nearest neighbor,bilinear,bicubic</interpolationMethods>
+  </supportedInterpolations>
+</coverage>

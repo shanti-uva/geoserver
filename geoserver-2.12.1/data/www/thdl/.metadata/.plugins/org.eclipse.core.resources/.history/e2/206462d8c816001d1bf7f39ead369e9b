@@ -1,0 +1,19 @@
+#ovrviewdiv {
+   float:left;
+   top:0px; 
+}
+
+#navdiv div {
+    top:0px;
+}
+
+#navdiv  {
+    float:right;
+} 
+
+
+#map {
+    width: 80%;
+    height: 512px;
+
+}
