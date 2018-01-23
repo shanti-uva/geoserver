@@ -1,9 +1,9 @@
 <coverage>
-  <id>CoverageInfoImpl-3d628d74:1609f029be7:-7e9a</id>
+  <id>CoverageInfoImpl--77c50230:160798578cb:-7e9a</id>
   <name>M173-georectified</name>
   <nativeName>M173-georectified</nativeName>
   <namespace>
-    <id>NamespaceInfoImpl-3d628d74:1609f029be7:-7ffc</id>
+    <id>NamespaceInfoImpl--77c50230:160798578cb:-7ffc</id>
   </namespace>
   <title>M173-georectified is a A raster file accompanied by a spatial data file</title>
   <description>/sds/projects/thdl-geoserver/releases/20091014104600/data/coverages/georectified/M173-georectified.jpg</description>
@@ -41,7 +41,7 @@
     <entry key="dirName">M173_M173-georectified</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl-3d628d74:1609f029be7:-7f2c</id>
+    <id>CoverageStoreInfoImpl--77c50230:160798578cb:-7f2c</id>
   </store>
   <nativeFormat>WorldImage</nativeFormat>
   <grid dimension="2">

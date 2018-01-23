@@ -1,9 +1,9 @@
 <coverage>
-  <id>CoverageInfoImpl-3d628d74:1609f029be7:-7e3c</id>
+  <id>CoverageInfoImpl--77c50230:160798578cb:-7e3c</id>
   <name>M208-georectified</name>
   <nativeName>M208-georectified</nativeName>
   <namespace>
-    <id>NamespaceInfoImpl-3d628d74:1609f029be7:-7ffc</id>
+    <id>NamespaceInfoImpl--77c50230:160798578cb:-7ffc</id>
   </namespace>
   <title>M208-georectified is a A raster file accompanied by a spatial data file</title>
   <description>/sds/projects/thdl-geoserver/releases/20091014104600/data/coverages/georectified/M208-georectified.jpg</description>
@@ -41,7 +41,7 @@
     <entry key="dirName">M208_M208-georectified</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl-3d628d74:1609f029be7:-7f2f</id>
+    <id>CoverageStoreInfoImpl--77c50230:160798578cb:-7f2f</id>
   </store>
   <nativeFormat>WorldImage</nativeFormat>
   <grid dimension="2">

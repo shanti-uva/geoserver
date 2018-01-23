@@ -1,9 +1,9 @@
 <coverage>
-  <id>CoverageInfoImpl-3d628d74:1609f029be7:-7da8</id>
+  <id>CoverageInfoImpl--77c50230:160798578cb:-7da8</id>
   <name>M6b-georectified</name>
   <nativeName>M6b-georectified</nativeName>
   <namespace>
-    <id>NamespaceInfoImpl-3d628d74:1609f029be7:-7ffc</id>
+    <id>NamespaceInfoImpl--77c50230:160798578cb:-7ffc</id>
   </namespace>
   <title>M6b-georectified is a A raster file accompanied by a spatial data file</title>
   <description>/sds/projects/thdl-geoserver/releases/20091014104600/data/coverages/georectified/M6b-georectified.jpg</description>
@@ -41,7 +41,7 @@
     <entry key="dirName">M6b_M6b-georectified</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl-3d628d74:1609f029be7:-7f54</id>
+    <id>CoverageStoreInfoImpl--77c50230:160798578cb:-7f54</id>
   </store>
   <nativeFormat>WorldImage</nativeFormat>
   <grid dimension="2">

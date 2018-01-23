@@ -1,8 +1,9 @@
 <style>
-  <id>StyleInfoImpl-3d628d74:1609f029be7:-7ff0</id>
+  <id>StyleInfoImpl--77c50230:160798578cb:-7ff0</id>
   <name>thl_comprehensive</name>
-  <sldVersion>
+  <format>sld</format>
+  <languageVersion>
     <version>1.0.0</version>
-  </sldVersion>
+  </languageVersion>
   <filename>thl_comprehensive.sld</filename>
 </style>

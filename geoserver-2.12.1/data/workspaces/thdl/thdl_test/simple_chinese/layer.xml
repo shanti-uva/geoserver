@@ -1,13 +1,13 @@
 <layer>
   <name>simple_chinese</name>
-  <id>LayerInfoImpl-3d628d74:1609f029be7:-7f19</id>
+  <id>LayerInfoImpl--77c50230:160798578cb:-7f19</id>
   <path>/</path>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl-3d628d74:1609f029be7:-7fe1</id>
+    <id>StyleInfoImpl--77c50230:160798578cb:-7fe1</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-3d628d74:1609f029be7:-7f1a</id>
+    <id>FeatureTypeInfoImpl--77c50230:160798578cb:-7f1a</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>

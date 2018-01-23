@@ -1,9 +1,9 @@
 <coverage>
-  <id>CoverageInfoImpl-3d628d74:1609f029be7:-7dcc</id>
+  <id>CoverageInfoImpl--77c50230:160798578cb:-7dcc</id>
   <name>M55b-georectified</name>
   <nativeName>M55b-georectified</nativeName>
   <namespace>
-    <id>NamespaceInfoImpl-3d628d74:1609f029be7:-7ffc</id>
+    <id>NamespaceInfoImpl--77c50230:160798578cb:-7ffc</id>
   </namespace>
   <title>M55b-georectified is a A raster file accompanied by a spatial data file</title>
   <description>/sds/projects/thdl-geoserver/releases/20091014104600/data/coverages/georectified/M55b-georectified.jpg</description>
@@ -41,7 +41,7 @@
     <entry key="dirName">M55b_M55b-georectified</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl-3d628d74:1609f029be7:-7fb8</id>
+    <id>CoverageStoreInfoImpl--77c50230:160798578cb:-7fb8</id>
   </store>
   <nativeFormat>WorldImage</nativeFormat>
   <grid dimension="2">

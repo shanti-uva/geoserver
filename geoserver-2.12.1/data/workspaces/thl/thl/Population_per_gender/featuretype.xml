@@ -1,9 +1,9 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-3d628d74:1609f029be7:-7ef6</id>
+  <id>FeatureTypeInfoImpl--77c50230:160798578cb:-7ef6</id>
   <name>Population_per_gender</name>
   <nativeName>Population_per_gender</nativeName>
   <namespace>
-    <id>NamespaceInfoImpl-3d628d74:1609f029be7:-7ffc</id>
+    <id>NamespaceInfoImpl--77c50230:160798578cb:-7ffc</id>
   </namespace>
   <title>Population_per_gender_Type</title>
   <abstract>Generated from thl</abstract>
@@ -26,13 +26,7 @@
     <maxx>105.0</maxx>
     <miny>26.0</miny>
     <maxy>40.0</maxy>
-    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
-  DATUM[&quot;WGS84&quot;, 
-    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
-  PRIMEM[&quot;Greenwich&quot;, 0.0], 
-  UNIT[&quot;degree&quot;, 0.017453292519943295], 
-  AXIS[&quot;Geodetic longitude&quot;, EAST], 
-  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+    <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
@@ -46,8 +40,11 @@
     <entry key="dirName">thl_Population_per_gender</entry>
   </metadata>
   <store class="dataStore">
-    <id>DataStoreInfoImpl-3d628d74:1609f029be7:-7fd3</id>
+    <id>DataStoreInfoImpl--77c50230:160798578cb:-7fd3</id>
   </store>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
 </featureType>

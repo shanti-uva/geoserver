@@ -1,13 +1,13 @@
 <layer>
   <name>M5-georectified</name>
-  <id>LayerInfoImpl-3d628d74:1609f029be7:-7dbf</id>
+  <id>LayerInfoImpl--77c50230:160798578cb:-7dbf</id>
   <path>/</path>
   <type>RASTER</type>
   <defaultStyle>
-    <id>StyleInfoImpl-3d628d74:1609f029be7:-7fe4</id>
+    <id>StyleInfoImpl--77c50230:160798578cb:-7fe4</id>
   </defaultStyle>
   <resource class="coverage">
-    <id>CoverageInfoImpl-3d628d74:1609f029be7:-7dc0</id>
+    <id>CoverageInfoImpl--77c50230:160798578cb:-7dc0</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>

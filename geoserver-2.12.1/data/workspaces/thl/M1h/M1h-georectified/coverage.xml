@@ -1,9 +1,9 @@
 <coverage>
-  <id>CoverageInfoImpl-3d628d74:1609f029be7:-7e50</id>
+  <id>CoverageInfoImpl--77c50230:160798578cb:-7e50</id>
   <name>M1h-georectified</name>
   <nativeName>M1h-georectified</nativeName>
   <namespace>
-    <id>NamespaceInfoImpl-3d628d74:1609f029be7:-7ffc</id>
+    <id>NamespaceInfoImpl--77c50230:160798578cb:-7ffc</id>
   </namespace>
   <title>M1h-georectified is a A raster file accompanied by a spatial data file</title>
   <description>/sds/projects/thdl-geoserver/releases/20091014104600/data/coverages/georectified/M1h-georectified.jpg</description>
@@ -41,7 +41,7 @@
     <entry key="dirName">M1h_M1h-georectified</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl-3d628d74:1609f029be7:-7fa3</id>
+    <id>CoverageStoreInfoImpl--77c50230:160798578cb:-7fa3</id>
   </store>
   <nativeFormat>WorldImage</nativeFormat>
   <grid dimension="2">

@@ -1,13 +1,13 @@
 <layer>
   <name>Death_rate</name>
-  <id>LayerInfoImpl-3d628d74:1609f029be7:-7f09</id>
+  <id>LayerInfoImpl--77c50230:160798578cb:-7f09</id>
   <path>/</path>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl-3d628d74:1609f029be7:-7fe2</id>
+    <id>StyleInfoImpl--77c50230:160798578cb:-7fe2</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-3d628d74:1609f029be7:-7f0a</id>
+    <id>FeatureTypeInfoImpl--77c50230:160798578cb:-7f0a</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>

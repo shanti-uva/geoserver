@@ -1,9 +1,9 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-3d628d74:1609f029be7:-7f14</id>
+  <id>FeatureTypeInfoImpl--77c50230:160798578cb:-7f14</id>
   <name>TibetCounties</name>
   <nativeName>TibetCounties</nativeName>
   <namespace>
-    <id>NamespaceInfoImpl-3d628d74:1609f029be7:-7ffa</id>
+    <id>NamespaceInfoImpl--77c50230:160798578cb:-7ffa</id>
   </namespace>
   <abstract>Generated from thdl</abstract>
   <keywords>
@@ -16,13 +16,7 @@
     <maxx>104.756660461426</maxx>
     <miny>26.8553295135498</miny>
     <maxy>39.3186149597168</maxy>
-    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
-  DATUM[&quot;WGS84&quot;, 
-    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
-  PRIMEM[&quot;Greenwich&quot;, 0.0], 
-  UNIT[&quot;degree&quot;, 0.017453292519943295], 
-  AXIS[&quot;Geodetic longitude&quot;, EAST], 
-  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+    <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>false</enabled>
@@ -33,8 +27,11 @@
     <entry key="dirName">thdl_TibetCounties</entry>
   </metadata>
   <store class="dataStore">
-    <id>DataStoreInfoImpl-3d628d74:1609f029be7:-7fcf</id>
+    <id>DataStoreInfoImpl--77c50230:160798578cb:-7fcf</id>
   </store>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
 </featureType>

@@ -1,9 +1,9 @@
 <coverage>
-  <id>CoverageInfoImpl-3d628d74:1609f029be7:-7d92</id>
+  <id>CoverageInfoImpl--77c50230:160798578cb:-7d92</id>
   <name>M79-georectified</name>
   <nativeName>M79-georectified</nativeName>
   <namespace>
-    <id>NamespaceInfoImpl-3d628d74:1609f029be7:-7ffc</id>
+    <id>NamespaceInfoImpl--77c50230:160798578cb:-7ffc</id>
   </namespace>
   <title>M79-georectified is a A raster file accompanied by a spatial data file</title>
   <description>/sds/projects/thdl-geoserver/releases/20091014104600/data/coverages/georectified/M79-georectified.jpg</description>
@@ -41,7 +41,7 @@
     <entry key="dirName">M79_M79-georectified</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl-3d628d74:1609f029be7:-7f5e</id>
+    <id>CoverageStoreInfoImpl--77c50230:160798578cb:-7f5e</id>
   </store>
   <nativeFormat>WorldImage</nativeFormat>
   <grid dimension="2">
